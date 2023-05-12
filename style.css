@@ -1,0 +1,51 @@
+body {
+  background-color: #964b00;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 400px;
+}
+
+#company {
+  background-color: #964b00;
+}
+
+.title {
+  text-align: center;
+  font-size: 85px;
+}
+
+.inventory {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.upgrades {
+  display: grid;
+  grid-template-columns: repeat(1, 85px);
+  grid-template-rows: repeat(1, 85px);
+  font-size: 15px;
+}
+
+#resetGame {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#clickDonut {
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  grid-template-rows: repeat(1, 250px);
+  font-size: 100px;
+  background-color: #964b00;
+  display: flex;
+  align-self: center;
+  margin-bottom: 10px;
+}
