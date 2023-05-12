@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donut Clicker</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="navBar">
+        <button id="company">About Fred the Baker Baking Co.</button>
+        <p id="original"><a href="https://orteil.dashnet.org/cookieclicker/">Inspiration</a></p>
+        <p id="credit">Created by <a href="https://www.linkedin.com/in/jon-luc-labouf-3a8547272/">Jon-Luc LaBouf</a></p>
+      </nav>
+      <div class="title">Donut Clicker</div>
+      <div class="menu">
+        <div class="main">
+          <button id="clickDonut">&#x1f369</button>
+          <!-- &#x1f369 -->
+        </div>
+      </div>
+      <div class="market">
+        <div class="upgrades">
+          <button id="autoClicker">Buy [1] Auto Clicker Price: 100 Donuts</button>
+        </div>
+      </div>
+      <div class="inventory">
+        <p id="donutAmount">You have 0 donuts</p>
+        <p id="clickerAmount">You have 0 auto clickers</p>
+      </div>
+      <div class="reset">
+        <button id="resetGame">Reset</button>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
