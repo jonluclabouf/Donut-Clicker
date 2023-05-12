@@ -1,1 +1,1 @@
-# jonluclabouf.github.io
+This is a idle donut clicker game.
